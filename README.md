@@ -51,8 +51,12 @@ This is the companion code for the PRML (Pattern Recognition and Machine Learnin
 ### Installation
 
 ```bash
+# install submodule
+git submodule update --init --recursive
+
 # Using uv (recommended)
 uv sync
+source .venv/bin/activate
 
 # Or using pip
 pip install -e .
@@ -122,10 +126,6 @@ python train.py --use_prm --process_reward_weight 0.5
 | `--use_length_penalty` | False | Length penalty |
 | `--use_prm` | False | Process reward |
 
-## License
-
-MIT License
-
 ## Acknowledgement
 
-This project is inspired by the LoRA blog post from Thinking Machines: [LoRA: Low-Rank Adaptation of Large Language Models](https://thinkingmachines.ai/blog/lora/)
+This project is inspired by [LoRA without regret](https://thinkingmachines.ai/blog/lora/) and its reproduction [code](https://github.com/michaelbzhu/lora-without-regret/)
