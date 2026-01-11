@@ -1,0 +1,3 @@
+[submodule "skywork-o1-prm-inference"]
+	path = skywork-o1-prm-inference
+	url = https://github.com/wishhyt/PRML_pj.git
