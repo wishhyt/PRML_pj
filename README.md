@@ -4,7 +4,11 @@
 
 > **Occam's Razor for RL Fine-Tuning: The Simple Design Is Efficient and Sufficient**
 
-This is the companion code for the PRML (Pattern Recognition and Machine Learning) course final project. We study efficient RL fine-tuning of Large Language Models using GRPO with LoRA.
+This is the companion code for the PRML (Pattern Recognition and Machine Learning) course final project. We study efficient RL fine-tuning of Large Language Models using GRPO with LoRA. We mainly focus on **3 questions**:
+
+1. What LoRA capacity is sufficient?
+2. Which RL techniques are truly effective?
+3. What reward designs work best?
 
 ## Key Findings
 
